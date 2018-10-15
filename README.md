@@ -1,4 +1,5 @@
-![safemd](resources/castle_wide.jpg)
+![safemd](resources/castle_wide.jpg)  
+[![Build Status](https://travis-ci.org/Hultner/safemd.svg?branch=master)](https://travis-ci.org/Hultner/safemd)
 # ♜ safemd
 **A markdown renderer focusing on security first**  
 Building upon the strong foundation of GitHub's for of [cmark] while adding 
