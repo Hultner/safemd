@@ -1,4 +1,4 @@
-![safemd](resources/castle_wide.jpg![safemd](resources/castle_wide.jpg)
+![safemd](resources/castle_wide.jpg)
 # ♜ safemd
 **A markdown renderer focusing on security first**  
 Building upon the strong foundation of GitHub's for of [cmark] while adding 
@@ -90,8 +90,9 @@ XSS-exploits found in the wild. Most of these are from 2018 and 2017.
 - [And the list goes on…](https://www.google.com/search?q=markdown+xss)
 
 ## Found something?
-I am grateful for all suggestions, improvements and bugfixes. Feel free to send a PR
-or create a GitHub Issue for anything that isn't sensitive and urgent. 
+I am grateful for all suggestions, improvements and bugfixes. Feel free to send
+a PR or create a GitHub Issue for anything that isn't sensitive and urgent.
+Additional tests trying to break the security is especially appriciated.
 
 I'm on [keybase](https://keybase.io/encrypt#hultner) for encrypted communication. 
 Send an email to security on my own domain hultner.se. Be aware, I discard any
