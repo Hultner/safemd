@@ -9,4 +9,6 @@ sudo: true
 install:
     - pip install -e .[dev]
 script: pytest -vv --cov-report xml # term-missing
+after_script:
+    - python-codacy-coverage -r coverage.xml 
 
