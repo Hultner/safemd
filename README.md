@@ -1,5 +1,6 @@
 ![safemd](resources/castle_wide.jpg)  
 [![Build Status](https://travis-ci.org/Hultner/safemd.svg?branch=master)](https://travis-ci.org/Hultner/safemd)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
 # ♜ safemd
 **A markdown renderer focusing on security first**  
 Building upon the strong foundation of GitHub's for of [cmark] while adding 
