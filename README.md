@@ -108,6 +108,11 @@ I'm on [keybase](https://keybase.io/encrypt#hultner) for encrypted communication
 Send an email to security on my own domain hultner.se. Be aware, I discard any
 SPF, DMARC or DKIM-failing message, including SPF-Soft fail.
 
+---
+```
+ .
+..:
+```
 
 [cmark]: https://github.com/github/cmark-gfm
 [cmarkgfm]: https://github.com/theacodes/cmarkgfm
