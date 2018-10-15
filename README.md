@@ -2,8 +2,8 @@
 [![Twitter Follow](https://img.shields.io/twitter/follow/ahultner.svg?style=social&label=Follow)](https://www.linkedin.com/in/hultner/)
 [![Add Hultnér on LinkedIn](https://img.shields.io/badge/linkedin-hultner-blue.svg)](https://twitter.com/ahultner)
 [![Build Status](https://travis-ci.org/Hultner/safemd.svg?branch=master)](https://travis-ci.org/Hultner/safemd)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/21872a9d5f154750b457e6207a83298d)](https://www.codacy.com/app/Hultner/safemd?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Hultner/safemd&amp;utm_campaign=Badge_Grade)
-[![Codacy Badge](https://api.codacy.com/project/badge/Coverage/21872a9d5f154750b457e6207a83298d)](https://www.codacy.com/app/Hultner/safemd?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Hultner/safemd&amp;utm_campaign=Badge_Coverage)
+<!--[![Codacy Badge](https://api.codacy.com/project/badge/Grade/21872a9d5f154750b457e6207a83298d)](https://www.codacy.com/app/Hultner/safemd?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Hultner/safemd&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Coverage/21872a9d5f154750b457e6207a83298d)](https://www.codacy.com/app/Hultner/safemd?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Hultner/safemd&amp;utm_campaign=Badge_Coverage)-->
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
 # ♜ safemd
 **A markdown renderer focusing on security first**  
