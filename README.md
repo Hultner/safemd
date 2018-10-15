@@ -11,7 +11,7 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Coverage/21872a9d5f154750b457e6207a83298d)](https://www.codacy.com/app/Hultner/safemd?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Hultner/safemd&amp;utm_campaign=Badge_Coverage)-->
 # ♜ safemd
 **A markdown renderer focusing on security first**  
-Building upon the strong foundation of GitHub's for of [cmark] while adding 
+Building upon the strong foundation of GitHub's fork of [cmark] while adding 
 [additional security precautions](#precautions-taken) to be safe out of the box. 
 
 When auditing applications rendering markdown from user input I noticed that
