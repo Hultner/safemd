@@ -23,7 +23,7 @@ setup(
     version="18.10",
     py_modules=["app"],
     install_requires=["cmarkgfm", "bleach"],
-    extras_require={"dev": ["black", "pytest", "twine", "pytest-cov", "python-codacy-coverage"]},
+    extras_require={"dev": ["black", "pytest", "twine", "pytest-cov", "codacy-coverage"]},
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Environment :: Web Environment",
