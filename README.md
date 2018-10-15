@@ -1,5 +1,7 @@
-![safemd](resources/castle_wide.jpg)  
+![safemd](resources/castle_wide.jpg) 
+[![Twitter Follow](https://img.shields.io/twitter/follow/ahultner.svg?style=social&label=Follow)](https://twitter.com/ahultner)
 [![Build Status](https://travis-ci.org/Hultner/safemd.svg?branch=master)](https://travis-ci.org/Hultner/safemd)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/21872a9d5f154750b457e6207a83298d)](https://www.codacy.com/app/Hultner/safemd?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Hultner/safemd&amp;utm_campaign=Badge_Grade)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
 # ♜ safemd
 **A markdown renderer focusing on security first**  
