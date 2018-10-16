@@ -3,12 +3,12 @@
 [![Add Hultnér on LinkedIn](https://img.shields.io/badge/linkedin-hultner-blue.svg)](https://twitter.com/ahultner)
 [![Build Status](https://travis-ci.org/Hultner/safemd.svg?branch=master)](https://travis-ci.org/Hultner/safemd)
 ![PyPI - Status](https://img.shields.io/pypi/status/safemd.svg)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/21872a9d5f154750b457e6207a83298d)](https://www.codacy.com/app/Hultner/safemd?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Hultner/safemd&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Coverage/21872a9d5f154750b457e6207a83298d)](https://www.codacy.com/app/Hultner/safemd?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Hultner/safemd&amp;utm_campaign=Badge_Coverage)
 ![PyPI](https://img.shields.io/pypi/v/safemd.svg)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/safemd.svg)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
 [![GitHub license](https://img.shields.io/github/license/Hultner/safemd.svg)](https://github.com/Hultner/safemd/blob/master/LICENSE)
-<!--[![Codacy Badge](https://api.codacy.com/project/badge/Grade/21872a9d5f154750b457e6207a83298d)](https://www.codacy.com/app/Hultner/safemd?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Hultner/safemd&amp;utm_campaign=Badge_Grade)
-[![Codacy Badge](https://api.codacy.com/project/badge/Coverage/21872a9d5f154750b457e6207a83298d)](https://www.codacy.com/app/Hultner/safemd?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Hultner/safemd&amp;utm_campaign=Badge_Coverage)-->
 # ♜ safemd
 **A markdown renderer focusing on security first**  
 Building upon the strong foundation of GitHub's fork of [cmark][] while adding
