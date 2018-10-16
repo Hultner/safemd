@@ -5,7 +5,7 @@ safemd – Safety first markdown rendering
 Author: Alexander Hultnér, 2018
 """
 
-from setuptools import setup
+from setuptools import setup, find_packages
 
 with open("README.md") as f:
     long_description = f.read()
@@ -20,8 +20,9 @@ setup(
     description="A markdown renderer focusing on security first",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    version="18.10.1",
+    version="18.10.2",
     py_modules=["app"],
+    packages=find_packages(exclude=["tests"]),
     install_requires=["cmarkgfm", "bleach"],
     extras_require={"dev": ["black", "pytest", "twine", "pytest-cov", "codacy-coverage"]},
     classifiers=[
