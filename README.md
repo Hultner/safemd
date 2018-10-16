@@ -11,7 +11,7 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Coverage/21872a9d5f154750b457e6207a83298d)](https://www.codacy.com/app/Hultner/safemd?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Hultner/safemd&amp;utm_campaign=Badge_Coverage)-->
 # ♜ safemd
 **A markdown renderer focusing on security first**  
-Building upon the strong foundation of GitHub's fork of [cmark] while adding 
+Building upon the strong foundation of GitHub's fork of [cmark][] while adding
 [additional security precautions](#precautions-taken) to be safe out of the box. 
 
 When auditing applications rendering markdown from user input I noticed that
@@ -50,7 +50,7 @@ Warehouse application is used by safemd. This is based on GitHub's
 battle-tested [fork][cmark] of CommonMark. We use this with the safety feature 
 `CMARK_OPT_SAFE` enabled per default, so no one in your team accidentally let
 insecure code slip through. As an additional safety layer safemd also pass the
-output from cmark through a whitelist with [Bleach], Mozilla's HTML sanitizing
+output from cmark through a whitelist with [Bleach][bleach], Mozilla's HTML sanitizing
 library. 
 
 Automatic safety testing through Travis is also utilized, running daily even if
@@ -87,19 +87,19 @@ and future code.
 ## Markdown XSS exploits found in the wild
 Of course, this document wouldn't be complete without a list of markdown-based
 XSS-exploits found in the wild. Most of these are from 2018 and 2017.
-- [Valve, store.steampowered.com markdown XSS](https://hackerone.com/reports/313250)
-- [GitLab, Markdown XSS](https://hackerone.com/reports/270999), [internal](https://about.gitlab.com/2017/10/17/gitlab-10-dot-0-dot-4-security-release/)
-- [PasteBin, markdown XSS (twice)](https://medium.com/@Nhoya/xss-in-pastebin-com-via-unsanitized-output-e216190b7949)
-  - [CVE-2017-1000459](https://www.cvedetails.com/cve/CVE-2017-1000459/)
-- [Google Colaboratory, XSS + CSP Bypass](https://blog.bentkowski.info/2018/06/xss-in-google-colaboratory-csp-bypass.html)
-- [Zendesk, Markdown based Stored XSS](https://blog.0daylabs.com/2016/02/15/stored-xss-on-zendesk/)
-- [Streamlabs, account comromise XSS](https://blog.rockhouse.ga/2017/12/31/streamlabs-stored-xss-in-donation-page-leading-to-account-compromise-and-my-first-reward/)
-- [Commento](https://github.com/adtac/commento-ce/issues/154)
-- [Leanote](https://github.com/leanote/leanote/issues/719)
-- [Markdown's XSS Vulnerability (and how to mitigate it), showdownjs](https://github.com/showdownjs/showdown/wiki/Markdown%27s-XSS-Vulnerability-%28and-how-to-mitigate-it%29)
-- [And the list goes on…](https://www.google.com/search?q=markdown+xss)
+  - [Valve, store.steampowered.com markdown XSS](https://hackerone.com/reports/313250)
+  - [GitLab, Markdown XSS](https://hackerone.com/reports/270999), [internal](https://about.gitlab.com/2017/10/17/gitlab-10-dot-0-dot-4-security-release/)
+  - [PasteBin, markdown XSS (twice)](https://medium.com/@Nhoya/xss-in-pastebin-com-via-unsanitized-output-e216190b7949)
+    - [CVE-2017-1000459](https://www.cvedetails.com/cve/CVE-2017-1000459/)
+  - [Google Colaboratory, XSS + CSP Bypass](https://blog.bentkowski.info/2018/06/xss-in-google-colaboratory-csp-bypass.html)
+  - [Zendesk, Markdown based Stored XSS](https://blog.0daylabs.com/2016/02/15/stored-xss-on-zendesk/)
+  - [Streamlabs, account comromise XSS](https://blog.rockhouse.ga/2017/12/31/streamlabs-stored-xss-in-donation-page-leading-to-account-compromise-and-my-first-reward/)
+  - [Commento](https://github.com/adtac/commento-ce/issues/154)
+  - [Leanote](https://github.com/leanote/leanote/issues/719)
+  - [Markdown's XSS Vulnerability (and how to mitigate it), showdownjs](https://github.com/showdownjs/showdown/wiki/Markdown%27s-XSS-Vulnerability-%28and-how-to-mitigate-it%29)
+  - [And the list goes on…](https://www.google.com/search?q=markdown+xss)
 
-## Found something?
+## Found something
 I am grateful for all suggestions, improvements and bugfixes. Feel free to send
 a PR or create a GitHub Issue for anything that isn't sensitive and urgent.
 Additional tests trying to break the security is especially appriciated.
@@ -116,4 +116,4 @@ SPF, DMARC or DKIM-failing message, including SPF-Soft fail.
 
 [cmark]: https://github.com/github/cmark-gfm
 [cmarkgfm]: https://github.com/theacodes/cmarkgfm
-[Bleach]: https://github.com/mozilla/bleach
+[bleach]: https://github.com/mozilla/bleach
