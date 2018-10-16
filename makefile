@@ -19,6 +19,7 @@ test:
 	pytest
 
 .PHONY : clean
+clean:
 	rm -f MANIFEST
 	rm -f *.pyc
 	rm -f **/*.pyc
