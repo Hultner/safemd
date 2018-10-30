@@ -20,7 +20,7 @@ setup(
     description="A markdown renderer focusing on security first",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    version="18.10.2",
+    version="18.10.3",
     py_modules=["app"],
     packages=find_packages(exclude=["tests"]),
     install_requires=["cmarkgfm", "bleach"],
