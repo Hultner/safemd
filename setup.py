@@ -20,8 +20,8 @@ setup(
     description="A markdown renderer focusing on security first",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    version="18.10.3",
-    py_modules=["app"],
+    version="18.10.4",
+    py_modules=["safemd"],
     packages=find_packages(exclude=["tests"]),
     install_requires=["cmarkgfm", "bleach"],
     extras_require={"dev": ["black", "pytest", "twine", "pytest-cov", "codacy-coverage"]},
@@ -36,5 +36,5 @@ setup(
         "Programming Language :: Python :: 3.7",
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],
-    python_requires=">=3.7",
+    python_requires=">=3.6",
 )
