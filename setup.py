@@ -20,11 +20,13 @@ setup(
     description="A markdown renderer focusing on security first",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    version="18.10.4",
+    version="19.10.1",
     py_modules=["safemd"],
     packages=find_packages(exclude=["tests"]),
     install_requires=["cmarkgfm", "bleach"],
-    extras_require={"dev": ["black", "pytest", "twine", "pytest-cov", "codacy-coverage"]},
+    extras_require={
+        "dev": ["black", "pytest", "twine", "pytest-cov", "codacy-coverage"]
+    },
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Environment :: Web Environment",
